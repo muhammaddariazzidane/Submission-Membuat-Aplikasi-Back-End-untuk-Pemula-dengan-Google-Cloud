@@ -1,0 +1,21 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+
+  "rules": {
+    "consistent-return": "off",
+    "no-console": "off",
+    "comma-dangle": "off",
+    "eslint-plugin-import/prefer-default-export": "off",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "linebreak-style": "off"
+  }
+}
